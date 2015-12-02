@@ -1,0 +1,49 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "exercise",
+  "scripts": {
+    "start": "webpack --watch --progress",
+    "build": "webpack -p",
+    "lint": "eslint app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Alexey Kudryashov (akud.soft@gmail.com)",
+  "license": "ISC",
+  "homepage": "https://www.akudsoft.com",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "bootstrap-sass": "^3.3.5",
+    "css": "^2.2.1",
+    "css-loader": "^0.23.0",
+    "eslint-plugin-react": "^3.6.2",
+    "file-loader": "^0.8.4",
+    "json-loader": "^0.5.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "sass": "^0.5.0",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.0",
+    "history": "^1.12.0",
+    "whatwg-fetch": "^0.10.1"
+  }
+}

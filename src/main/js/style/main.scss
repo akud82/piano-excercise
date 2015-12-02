@@ -1,0 +1,18 @@
+$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+.answered {
+  background-color: rgba(129, 255, 0, 0.19);
+}
+
+.not-answered {
+  background-color: rgba(244, 66, 80, 0.12);
+}
+
+.date-col {
+  width: 150px;
+}
+
+.owner-col {
+  width: 150px;
+}
