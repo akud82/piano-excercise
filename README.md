@@ -15,7 +15,7 @@ $ npm run build
 ## 3. And run spring-boot server
 
 ```
-$ clean spring-boot:run -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active=dev
+$ mvn clean spring-boot:run -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active=dev
 ```
 
 ## 4. Show the application
