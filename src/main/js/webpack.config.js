@@ -2,6 +2,8 @@ var path = require('path');
 var webpack = require('webpack');
 var config = require('./config.json');
 
+console.log('test');
+
 module.exports = {
     devtool: 'source-map',
     entry: [
